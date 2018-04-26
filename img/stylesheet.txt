@@ -1,0 +1,125 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-american-express--hover-min {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -5px;
+}
+
+.sprite-icon-american-express-min {
+    width: 64px;
+    height: 64px;
+    background-position: -79px -5px;
+}
+
+.sprite-icon-cart-min {
+    width: 15px;
+    height: 12px;
+    background-position: -153px -5px;
+}
+
+.sprite-icon-clock-min {
+    width: 12px;
+    height: 12px;
+    background-position: -178px -5px;
+}
+
+.sprite-icon-discover--hover-min {
+    width: 64px;
+    height: 64px;
+    background-position: -153px -27px;
+}
+
+.sprite-icon-discover-min {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -101px;
+}
+
+.sprite-icon-facebook--hover-min {
+    width: 16px;
+    height: 16px;
+    background-position: -79px -101px;
+}
+
+.sprite-icon-facebook-min {
+    width: 16px;
+    height: 16px;
+    background-position: -105px -101px;
+}
+
+.sprite-icon-google--hover-min {
+    width: 16px;
+    height: 16px;
+    background-position: -131px -101px;
+}
+
+.sprite-icon-google-min {
+    width: 16px;
+    height: 16px;
+    background-position: -157px -101px;
+}
+
+.sprite-icon-instagramm--hover-min {
+    width: 16px;
+    height: 16px;
+    background-position: -183px -101px;
+}
+
+.sprite-icon-instagramm-min {
+    width: 16px;
+    height: 16px;
+    background-position: -209px -101px;
+}
+
+.sprite-icon-jcb--hover-min {
+    width: 64px;
+    height: 64px;
+    background-position: -79px -127px;
+}
+
+.sprite-icon-jcb-min {
+    width: 64px;
+    height: 64px;
+    background-position: -153px -127px;
+}
+
+.sprite-icon-logo--decoration-min {
+    width: 87px;
+    height: 62px;
+    background-position: -227px -5px;
+}
+
+.sprite-icon-mail-min {
+    width: 14px;
+    height: 11px;
+    background-position: -200px -5px;
+}
+
+.sprite-icon-marker-min {
+    width: 9px;
+    height: 13px;
+    background-position: -227px -77px;
+}
+
+.sprite-icon-master-card--hover-min {
+    width: 64px;
+    height: 64px;
+    background-position: -246px -77px;
+}
+
+.sprite-icon-master-card-min {
+    width: 64px;
+    height: 64px;
+    background-position: -227px -151px;
+}
+
+.sprite-icon-menu-min {
+    width: 16px;
+    height: 13px;
+    background-position: -301px -151px;
+}
