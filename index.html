@@ -29,10 +29,10 @@
 				</nav>
 				<div class="page-header__horizontal-column">
 					<form action="/" class="page-header__search  search">
-						<label for="page-header__search" class="search__input  visually-hidden">Поле поиска</label>
+						<label for="page-header__search" class="search__input  visually-hidden">Search value</label>
 						<input type="text" id="page-header__search" placeholder="Search here...">
 						<button class="search__button" type="submit">
-							<span class="visually-hidden">Отправить форму</span>
+							<span class="visually-hidden">Enter form</span>
 						</button>
 					</form>
 					<a class="page-header__price  price" href="#">
@@ -50,17 +50,149 @@
 			<h2 class="categories__title">
 				categories
 			</h2>
-			<ul class="categories__navigation">
-				<li class="categories__item"><a href="#" class="categories__link">clothing</a></li>
-				<li class="categories__item"><a href="#" class="categories__link">electronics hot</a></li>
-				<li class="categories__item"><a href="#" class="categories__link">health & beauty</a></li>
-				<li class="categories__item"><a href="#" class="categories__link">watches</a></li>
-				<li class="categories__item"><a href="#" class="categories__link">jewellery</a></li>
-				<li class="categories__item"><a href="#" class="categories__link">shoes</a></li>
+			<ul class="categories__navigation  categories-navigation">
+				<li class="categories-navigation__item"><a href="#" class="categories-navigation__link">clothing</a></li>
+				<li class="categories-navigation__item"><a href="#" class="categories-navigation__link">electronics hot</a></li>
+				<li class="categories-navigation__item"><a href="#" class="categories-navigation__link">health & beauty</a></li>
+				<li class="categories-navigation__item"><a href="#" class="categories-navigation__link">watches</a></li>
+				<li class="categories-navigation__item"><a href="#" class="categories-navigation__link">jewellery</a></li>
+				<li class="categories-navigation__item"><a href="#" class="categories-navigation__link">shoes</a></li>
 			</ul>
 		</div>
 	</section>
 
-	
+	<main>
+		<aside class="main__column  main__column--short">
+			<ul class="categories-navigation--vertical">
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Clothing</a>
+				</li>
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Electronics</a>
+				</li>
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Shoes</a>
+				</li>
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Watches</a>
+				</li>
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Jewellery</a>
+				</li>
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Health and Beauty</a>
+				</li>
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Kids and Babies</a>
+				</li>
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Sports</a>
+				</li>
+				<li class="categories-navigation__item--vertical">
+					<a href="#" class="categories-navigation__link--vertical">Home and Garden</a>
+				</li>
+			</ul>
+			<section class="goods">
+				<header class="goods__header">
+					<h2 class="goods__title">
+						Hot deals
+					</h2>
+					<span class="goods__controls">
+							<button class="goods__button  goods__button--prev" type="button">
+								<span class="visually-hidden">
+									Previous slide
+								</span>
+							</button>
+							<button class="goods__button  goods__button--next" type="button" disabled>
+								<span class="visually-hidden">
+									Next slide
+								</span>
+							</button>
+						</span>
+				</header>
+				<article class="goods__item  item  item--broader">
+					<img src="img/sidebar-image-1.jpg" alt="sneakers" class="item__image">
+					<p class="item__description">
+						Lorem ipsum dolor
+					</p>
+					<p class="item__price">
+						<span class="item__old-price">
+							$100.00
+						</span>
+						<span class="item__current-price">
+							$90.00
+						</span>
+					</p>
+					<ul class="item__rating  rating">
+						<li class="ration__item"></li>
+						<li class="ration__item"></li>
+						<li class="ration__item"></li>
+						<li class="ration__item"></li>
+						<li class="ration__item  ration__item--empty"></li>
+					</ul>
+				</article>
+			</section>
+			<section class="goods">
+				<header class="goods__header">
+					<h2 class="goods__title">
+						Special deal
+					</h2>
+					<span class="goods__controls">
+							<button class="goods__button  goods__button--prev" type="button">
+								<span class="visually-hidden">
+									Previous slide
+								</span>
+							</button>
+							<button class="goods__button  goods__button--next" type="button" disabled>
+								<span class="visually-hidden">
+									Next slide
+								</span>
+							</button>
+						</span>
+				</header>
+				<article class="goods__item  item  item--broader">
+					<img src="img/sidebar-image-2.jpg" alt="sneakers" class="item__image">
+					<p class="item__description">
+						Lorem ipsum dolor
+					</p>
+					<p class="item__price">
+						<span class="item__old-price">
+							$100.00
+						</span>
+						<span class="item__current-price">
+							$90.00
+						</span>
+					</p>
+					<ul class="item__rating  rating">
+						<li class="ration__item"></li>
+						<li class="ration__item"></li>
+						<li class="ration__item"></li>
+						<li class="ration__item"></li>
+						<li class="ration__item  ration__item--empty"></li>
+					</ul>
+				</article>
+			</section>
+			<section class="subscribe">
+				<h2 class="subscribe__title">
+					Newsletter
+				</h2>
+				<p class="subscribe__description">
+					Sign Up for Our Newsletter!
+				</p>
+				<form action="/" class="subscribe__form" method="post">
+					<label for="subscribe-email" class="visually-hidden">
+						Your email
+					</label>
+					<input type="email" class="subscribe__email" id="subscribe-email">
+					<button class="subscribe__button  button" type="submit">
+						Subscribe
+					</button>
+				</form>
+			</section>
+			<a href="#" class="advertising">
+				<img class="advertising__image" src="img/sidebar-image--big-min.jpg" alt="dove man care">
+			</a>
+		</aside>
+	</main>
 </body>
 </html>
