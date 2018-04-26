@@ -28,9 +28,9 @@
 					</ul>
 				</nav>
 				<div class="page-header__horizontal-column">
-					<form action="/" class="page-header__search  search">
+					<form action="/" class="page-header__search  search" name="search" method="get">
 						<label for="page-header__search" class="search__input  visually-hidden">Search value</label>
-						<input type="text" id="page-header__search" placeholder="Search here...">
+						<input type="text" id="page-header__search" placeholder="Search here..." name="search value">
 						<button class="search__button" type="submit">
 							<span class="visually-hidden">Enter form</span>
 						</button>
@@ -179,11 +179,11 @@
 				<p class="subscribe__description">
 					Sign Up for Our Newsletter!
 				</p>
-				<form action="/" class="subscribe__form" method="post">
+				<form action="/" class="subscribe__form" method="post" name="subscribe">
 					<label for="subscribe-email" class="visually-hidden">
 						Your email
 					</label>
-					<input type="email" class="subscribe__email" id="subscribe-email">
+					<input type="email" class="subscribe__email" id="subscribe-email" name="email">
 					<button class="subscribe__button  button" type="submit">
 						Subscribe
 					</button>
@@ -193,6 +193,41 @@
 				<img class="advertising__image" src="img/sidebar-image--big-min.jpg" alt="dove man care">
 			</a>
 		</aside>
+		<div class="main__column">
+			<section class="discounts">
+				<h2 class="discounts__title">
+					<span class="discounts__subtitle">
+						Collection 2017
+					</span>
+					save 50% for
+				</h2>
+				<p class="discounts__description">
+					First purchase
+				</p>
+				<a href="#" class="discounts__link">Shop now</a>
+				<ul class="discounts__list">
+					<li class="discounts__list-item">
+						<h3 class="discount__list-title">
+							Money back
+						</h3>
+						30 Days Money Back Guarantee
+					</li>
+					<li class="discounts__list-item">
+						<h3 class="discount__list-title">
+							Free shipping
+						</h3>
+						Shipping on orders over $99
+					</li>
+					<li class="discounts__list-item">
+						<h3 class="discount__list-title">
+							Special sale
+						</h3>
+						Extra $5 off on all items
+					</li>
+				</ul>
+			</section>
+			
+		</div>
 	</main>
 </body>
 </html>
