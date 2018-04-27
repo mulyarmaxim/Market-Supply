@@ -246,3 +246,72 @@ img {
   font-size: 14px;
   font-weight: 700;
 }
+
+.categories {
+  color: #ffffff;
+
+  background: #f10e34;
+}
+
+.categories__inner {
+  display: flex;
+  padding: 17px 0;
+}
+
+.categories__title {
+  position: relative;
+
+  width: 240px;
+  margin: 0;
+  margin-right: 39px;
+  padding-left: 57px;
+
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.categories__title::before {
+  content: '';
+
+  position: absolute;
+  left: 25px;
+  top: 2px;
+
+  width: 16px;
+  height: 13px;
+  background: url('../img/spritesheet.png') -129px -83px;
+}
+
+.categories__navigation {
+  width: 834px;
+  margin-left: auto;
+}
+
+.categories-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.categories-navigation__item {
+  margin-right: 42px;
+}
+
+.categories-navigation__items:last-child {
+  margin-right: 0;
+}
+
+.categories-navigation__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.categories-navigation__link:hover,
+.categories-navigation__link:focus {
+  color: #ffa500;
+  text-decoration: underline;
+}
