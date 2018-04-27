@@ -873,3 +873,18 @@ img {
   padding: 13px 23px;
   margin-left: 7px;
 }
+
+.partners {
+  margin-top: 32px;
+  background: #f10e34;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  margin: 0;
+
+  list-style: none;
+}
