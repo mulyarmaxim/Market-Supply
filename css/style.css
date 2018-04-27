@@ -1,0 +1,15 @@
+body {
+  font: 15px Lato, Arial, sans-serif;
+  color: #3d3d3d;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.inner,
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
