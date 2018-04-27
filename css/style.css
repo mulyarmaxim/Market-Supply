@@ -671,3 +671,91 @@ img {
   padding: 14px 26px;
 }
 
+.discounts {
+  padding-top: 85px;
+  margin-bottom: 37px;
+
+  background: #fdd287 url('../img/bg-article-min.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+.discounts__title {
+  width: 475px;
+  margin: 0;
+
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+  text-shadow: 0 3px 7px rgba(0, 0, 0, 0.13);
+}
+
+.discounts__subtitle {
+  display: block;
+
+  font-size: 38px;
+  line-height: 38px;
+  color: #303a7a;
+}
+
+.discounts__description {
+  width: 475px;
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+  text-shadow: 0 3px 7px rgba(0, 0, 0, 0.13);
+}
+
+.discounts__link {
+  display: inline-block;
+
+  padding: 8px 20px;
+  border: 2px solid #000000;
+  margin-left: 170px;
+  margin-bottom: 70px;
+
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.discounts__link:hover,
+.discounts__link:focus {
+  color: #f10e34;
+  border-color: #f10e34;
+}
+
+.discounts__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 53px;
+  margin: 0;
+
+  color: #ffffff;
+
+  background: #f10e34;
+  list-style: none;
+}
+
+.discounts__list-item {
+  width: 215px;
+
+  text-align: center;
+}
+
+.discount__list-title {
+  margin: 0;
+
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
